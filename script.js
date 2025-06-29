@@ -1,7 +1,7 @@
 const squares = document.querySelectorAll('.square');
 
 squares.forEach((square, index) => {
-  square.addEventListener('mouseenter', () => {
+  square.addEventListener('mouseover', () => {
     squares.forEach((otherSquare, i) => {
       if (i !== index) {
         otherSquare.style.backgroundColor = '#6F4E37'; // coffee color
